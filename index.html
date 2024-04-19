@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <title>Tungol</title>
+</head>
+<body>
+    <pre>
+        PS D:\Tungol> git ini
+git: 'ini' is not a git command. See 'git --help'.
+        gui
+        init-db
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS D:\Tungol> git branch -M main
+PS D:\Tungol> git remote add origin https://github.com/Z3phyr425/Z3phyr425.github.io.git
+error: src refspec main does not match any
+PS D:\Tungol> git config --global user.email "z3phyr425@gmail.com"
+PS D:\Tungol> git config --global user.name "Z3phyr425"
+PS D:\Tungol> git add .
+PS D:\Tungol> git commit -m "first commit"
+On branch main
+PS D:\Tungol> git remote add origin https://github.com/Z3phyr425/Z3phyr425.github.io.git
+error: remote origin already exists.
+PS D:\Tungol> git add .
+PS D:\Tungol> git commit -m "fist commit"
+On branch main
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS D:\Tungol> git config --global user.email "z3phyr425@gmail.com"
+PS D:\Tungol> git init
+Reinitialized existing Git repository in D:/Tungol/.git/
+PS D:\Tungol> git branch -M main
+PS D:\Tungol> git remote add origin https://github.com/Z3phyr425/Z3phyr425.github.io.git
+error: remote origin already exists.
+PS D:\Tungol> git commit --global user.email "z3phyr425@gmail.com"
+error: unknown option `global'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>)]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --[no-]quiet      suppress summary after successful commit
+    -v, --[no-]verbose    show diff in commit message template
+
+Commit message options
+    -F, --[no-]file <file>
+                          read message from file
+    --[no-]author <author>
+                          override author for commit
+    --[no-]date <date>    override date for commit
+    -m, --[no-]message <message>
+                          commit message
+    -c, --[no-]reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --[no-]reuse-message <commit>
+                          reuse message from specified commit
+    --[no-]fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --[no-]squash <commit>
+                          use autosquash formatted message to squash specified commit
+    --[no-]reset-author   the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --[no-]signoff    add a Signed-off-by trailer
+    -t, --[no-]template <file>
+                          use specified template file
+    -e, --[no-]edit       force edit of commit
+    --[no-]cleanup <mode> how to strip spaces and #comments from message
+    --[no-]status         include status in commit message template
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --[no-]all        commit all changed files
+    -i, --[no-]include    add specified files to index for commit
+    --[no-]interactive    interactively add files
+    -p, --[no-]patch      interactively add changes
+    -o, --[no-]only       commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --verify              opposite of --no-verify
+    --[no-]dry-run        show what would be committed
+    --[no-]short          show status concisely
+    --[no-]branch         show branch information
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+PS D:\Tungol> git --global user.email "z3phyr425@gmail.com"       
+unknown option: --global
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+PS D:\Tungol> git add --global user.email "z3phyr425@gmail.com"
+error: unknown option `global'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --[no-]dry-run    dry run
+    -v, --[no-]verbose    be verbose
+
+    -i, --[no-]interactive
+                          interactive picking
+    -p, --[no-]patch      select hunks interactively
+    -e, --[no-]edit       edit current diff and apply
+    -f, --[no-]force      allow adding otherwise ignored files
+    -u, --[no-]update     update tracked files
+    --[no-]renormalize    renormalize EOL of tracked files (implies -u)
+    -N, --[no-]intent-to-add
+    --[no-]ignore-errors  just skip files which cannot be added because of errors
+    --[no-]ignore-missing check if - even missing - files are ignored in dry run
+    --[no-]sparse         allow updating entries outside of the sparse-checkout cone
+    --[no-]chmod (+|-)x   override the executable bit of the listed files
+    --[no-]pathspec-from-file <file>
+    --[no-]pathspec-file-nul
+PS D:\Tungol> git init
+git: 'branchgit' is not a git command. See 'git --help'.
+PS D:\Tungol> git branch -M main
+PS D:\Tungol> git remote add origin https://github.com/Z3phyr425/Z3phyr425.github.io.git
+PS D:\Tungol> git add .
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS D:\Tungol> git add .
+PS D:\Tungol> git commit -m "first commit"
+[main (root-commit) 7adb706] first commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+PS D:\Tungol> git push -u origin main
+info: please complete authentication in your browser...
+PS D:\Tungol> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 365 bytes | 91.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Z3phyr425/Z3phyr425.github.io.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\Tungol> git   
+    </pre>
+</body>
+</html>
