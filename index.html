@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="manifest.json">
-    <title>Tungol App</title>
+    <title>Tubol App</title>
     <style>
         body{
             padding: 0;
@@ -33,5 +33,11 @@
         <h1>Welcome to my Page</h1>
         <p>Created by: Mark</p>
     </header>
+
+    <script>
+        if("serviceWorker" in navigator){
+            navigator.serviceWorker.register("servicewoker.js");
+        }
+    </script>
 </body>
 </html>
