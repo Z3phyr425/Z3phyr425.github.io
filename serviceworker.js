@@ -1,5 +1,10 @@
 const urlsToCache = [
-    // List of assets to cache.
+    "/",
+    "image/apple-touch-icon.png",
+    "image/favicon.icon",
+    "image/icon-192.png",
+    "image/icon-512-maskable.png",
+    "image/icon-512.png"
   ];
    
   self.addEventListener("install", (event) => {
